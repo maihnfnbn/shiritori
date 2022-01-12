@@ -99,6 +99,7 @@ def game_over(game_status):
     if len(winner) > 1:
         print('There is a tie between: ' + ' and '.join(winner))
     else: print('The winner is: '+winner[0])
+    exit()
 
 
 def play():
